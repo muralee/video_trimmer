@@ -30,12 +30,12 @@ PODS:
   - DKPhotoGallery/Resource (0.0.17):
     - SDWebImage
     - SwiftyGif
-  - ffmpeg-kit-ios-https (4.5.1.LTS)
-  - ffmpeg_kit_flutter (4.5.1.LTS):
-    - ffmpeg_kit_flutter/https-lts (= 4.5.1.LTS)
+  - ffmpeg-kit-ios-https-gpl (4.5.1)
+  - ffmpeg_kit_flutter_https_gpl (4.5.1):
+    - ffmpeg_kit_flutter_https_gpl/https-gpl (= 4.5.1)
     - Flutter
-  - ffmpeg_kit_flutter/https-lts (4.5.1.LTS):
-    - ffmpeg-kit-ios-https (= 4.5.1.LTS)
+  - ffmpeg_kit_flutter_https_gpl/https-gpl (4.5.1):
+    - ffmpeg-kit-ios-https-gpl (= 4.5.1)
     - Flutter
   - file_picker (0.0.1):
     - DKImagePickerController/PhotoGallery
@@ -63,7 +63,7 @@ PODS:
     - libwebp
 
 DEPENDENCIES:
-  - ffmpeg_kit_flutter (from `.symlinks/plugins/ffmpeg_kit_flutter/ios`)
+  - ffmpeg_kit_flutter_https_gpl (from `.symlinks/plugins/ffmpeg_kit_flutter_https_gpl/ios`)
   - file_picker (from `.symlinks/plugins/file_picker/ios`)
   - Flutter (from `Flutter`)
   - path_provider_ios (from `.symlinks/plugins/path_provider_ios/ios`)
@@ -74,14 +74,14 @@ SPEC REPOS:
   trunk:
     - DKImagePickerController
     - DKPhotoGallery
-    - ffmpeg-kit-ios-https
+    - ffmpeg-kit-ios-https-gpl
     - libwebp
     - SDWebImage
     - SwiftyGif
 
 EXTERNAL SOURCES:
-  ffmpeg_kit_flutter:
-    :path: ".symlinks/plugins/ffmpeg_kit_flutter/ios"
+  ffmpeg_kit_flutter_https_gpl:
+    :path: ".symlinks/plugins/ffmpeg_kit_flutter_https_gpl/ios"
   file_picker:
     :path: ".symlinks/plugins/file_picker/ios"
   Flutter:
@@ -96,8 +96,8 @@ EXTERNAL SOURCES:
 SPEC CHECKSUMS:
   DKImagePickerController: b5eb7f7a388e4643264105d648d01f727110fc3d
   DKPhotoGallery: fdfad5125a9fdda9cc57df834d49df790dbb4179
-  ffmpeg-kit-ios-https: c95f1d49599efd796a7cfb433f4500a7c953cc9c
-  ffmpeg_kit_flutter: 7429364786c032a7825e7882819cca6c65449a81
+  ffmpeg-kit-ios-https-gpl: 35ebfb4070b7236b2130689745636aad92764530
+  ffmpeg_kit_flutter_https_gpl: f14fd7b47d495b929bebe5901c76abbe04343779
   file_picker: 3e6c3790de664ccf9b882732d9db5eaf6b8d4eb1
   Flutter: 50d75fe2f02b26cc09d224853bb45737f8b3214a
   libwebp: 946cb3063cea9236285f7e9a8505d806d30e07f3
@@ -107,6 +107,6 @@ SPEC CHECKSUMS:
   video_player_avfoundation: e489aac24ef5cf7af82702979ed16f2a5ef84cff
   video_thumbnail: c4e2a3c539e247d4de13cd545344fd2d26ffafd1
 
-PODFILE CHECKSUM: cca541ad442be8848bcda22bd1ae3f16f7a47a29
+PODFILE CHECKSUM: 7adbc9d59f05e1b01f554ea99b6c79e97f2214a2
 
-COCOAPODS: 1.11.2
+COCOAPODS: 1.11.3
